@@ -25,3 +25,5 @@ git clone
 cd insurance-app
 docker-compose build && docker-compose up
 ```
+
+After that go to http://localhost:5173 and go! :)

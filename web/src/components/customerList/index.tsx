@@ -21,7 +21,10 @@ export const CustomerList = ({ customers }: CustomerListProps) => {
     return (
         <>
             <Button onClick={() => navigate('/customer/create')} text="Create Customer" type="edit" />
-            <table>
+            {
+                customers?.length > 0 ? 
+
+                <table>
                 <thead>
                     <tr>
                         <th>Name and Surname</th>
@@ -55,7 +58,8 @@ export const CustomerList = ({ customers }: CustomerListProps) => {
                     })
                 }
                 </tbody>
-            </table>
+            </table> : <h2 style={{ paddingTop: '40px' }}>Please fill your database :)</h2>
+            }
         </>
     )
 }
