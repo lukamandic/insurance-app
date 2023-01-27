@@ -1,0 +1,36 @@
+.input__line {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 40%;
+}
+
+.input__button {
+    margin-top: 3%;
+}
+
+.input__label {
+    width: 15%;
+}
+
+.input__input {
+    width: 70%;
+    justify-content: end;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    background-color: #9baccf;
+}
+
+/* style input text */
+.input__input::placeholder {
+    color: #000;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+/* on focus no wrapper */
+.input__input:focus {
+    outline: none;
+}

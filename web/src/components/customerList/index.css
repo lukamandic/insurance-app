@@ -1,0 +1,32 @@
+.customer__list__line {
+    cursor: pointer;
+}
+
+.customer__list__header {
+    display: flex;
+    flex-direction: row;
+}
+
+.customer__list {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-top: 2rem;
+    width: 85%;
+    min-height: 100%;
+}
+
+table {
+    margin-top: 3%;
+    border-collapse: collapse;
+    width: 80%;
+}
+
+th {
+    padding-bottom: 5%;
+}
+
+td {
+    text-align: center;
+    padding: 5px;
+}
